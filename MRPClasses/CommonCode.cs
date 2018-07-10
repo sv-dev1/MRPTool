@@ -14,7 +14,7 @@ namespace MRPClasses
     {
         private bool bom = false;
         private bool products = false;
-        private bool purchaseOrders = false;
+        //private bool purchaseOrders = false;
         private bool salesOrders = false;
         private bool sohlist = false;
         List<decimal> sad = new List<decimal>();
@@ -103,7 +103,18 @@ namespace MRPClasses
                         dtExceptionProducts = ConvertCSVtoDataTable(file, true);
                     }
                 }
+                //foreach (DataRow item in dtSalesOrders.Rows)
+                //{
+                //    try
+                //    {
+                //        DateTime.ParseExact(Convert.ToString(item["RequiredDate"]), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                //    }
+                //    catch (Exception ex)
+                //    {
 
+                //        var fdsfd = DateTime.ParseExact(Convert.ToString(item["RequiredDate"]), "d/M/yyyy", CultureInfo.InvariantCulture);
+                //    }
+                //}
                 var listBOM = BillOfMaterial(dtBOM);
 
                 List<string> exceptionBOMItemsList = GetExceptionItemsList(dtExceptionBOMItems);
@@ -132,7 +143,7 @@ namespace MRPClasses
                                        OnPurchase = Convert.ToString(SOHList == null ? "0" : SOHList["On Purchase"]),// Stock on purchase
                                        QtyOnHand = Convert.ToString(SOHList == null ? "0" : SOHList["Qty On Hand"]),//Stock on Hand
                                        OrderStatus = Convert.ToString(SalesOrders == null ? "" : SalesOrders["OrderStatus"]).ToLower(),
-                                       RequiredDate = SalesOrders == null ? DateTime.Now : DateTime.ParseExact(Convert.ToString(SalesOrders["RequiredDate"]), "dd/MM/yyyy", CultureInfo.InvariantCulture),
+                                       RequiredDate = SalesOrders == null ? DateTime.Now : DateTime.ParseExact(Convert.ToString(SalesOrders["RequiredDate"]), "d/M/yyyy", CultureInfo.InvariantCulture),
                                        OrderQuantity = Convert.ToDecimal(Convert.ToDecimal(SalesOrders == null ? "0" : Convert.ToString(SalesOrders["OrderQuantity"]) == "" ? "0" : SalesOrders["OrderQuantity"]).ToString("G")),//Order Quantity
                                        ProductGroup = Convert.ToString(tableProducts == null ? "" : tableProducts["Product Group"]),//Warehouse info
                                        Quantity = 0.0M,//Convert.ToDecimal(listBOM.Where(mm => mm.AssembledProductCode == Convert.ToString(tableProducts["Product Code"])).FirstOrDefault().Quantity),
@@ -912,8 +923,8 @@ namespace MRPClasses
             return exceptionListItems;
         }
 
-       // decimal Quantity = 0.0M;
-       // decimal ComparisonResult = 0.0M;
+        // decimal Quantity = 0.0M;
+        // decimal ComparisonResult = 0.0M;
         protected void load_categories(List<clsBillOfMaterial> list, List<clsBillOfMaterial> listBOM, decimal OrderQuantity, DateTime RequiredDate, string fail)
         {
             if (list != null)

@@ -345,13 +345,13 @@
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{7390CF7A-7297-4D31-8F13-2CAEEA39E7B2}</td><td>IMG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{9CCB93B0-2896-46BE-85DE-8B21C8FBA329}</td><td>BILL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{7365410E-87C1-4F65-B2A2-A2EBCCB75AC7}</td><td>IMG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MRPClasses.dll</td><td>{9B5525BA-1B43-435D-9206-5C00A3D8DA04}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrpclasses.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MRPTool.exe</td><td>{B647FFDD-B493-4AF1-9BFE-71604111494B}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrptool.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MRPTool.vshost.exe</td><td>{CFA5F147-2C11-437C-BE39-8D987C05678E}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrptool.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MahApps.Metro.dll</td><td>{4B45FF45-8B66-4928-9CAF-4485F38A014C}</td><td>INSTALLDIR</td><td>2</td><td/><td>mahapps.metro.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll</td><td>{CDE3DDE8-B3D4-4FF2-A9E9-6E257EDAE749}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Select.HtmlToPdf.dll</td><td>{AB8A69BD-5D5C-4424-B694-C5BE131B96BB}</td><td>INSTALLDIR</td><td>2</td><td/><td>select.htmltopdf.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Windows.Interactivity.dll</td><td>{96C98345-2FC9-48B4-86B3-1BD646C86A18}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.windows.interactivity</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>MRPClasses.dll</td><td>{F7641373-DA9D-453E-81B5-92C7BD9303C8}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrpclasses.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>MRPTool.exe</td><td>{609D111B-65DE-486D-AB41-9396DA12A725}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrptool.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>MRPTool.vshost.exe</td><td>{68D9D7B8-F796-49C2-A225-D3314462FDBF}</td><td>INSTALLDIR</td><td>2</td><td/><td>mrptool.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>MahApps.Metro.dll</td><td>{9B9638D6-42D0-4A96-A02B-8AB86BE4AFE2}</td><td>INSTALLDIR</td><td>2</td><td/><td>mahapps.metro.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll</td><td>{AF259A0B-928B-4C12-B931-7188ABE6CFBF}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Select.HtmlToPdf.dll</td><td>{C0C2048C-CC95-4C5B-A5C1-950B5FD85F13}</td><td>INSTALLDIR</td><td>2</td><td/><td>select.htmltopdf.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Windows.Interactivity.dll</td><td>{A9B04B77-0DCA-40E6-90A4-131AF80B0C0F}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.windows.interactivity</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1920,29 +1920,29 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>customhtml.html</td><td>ISX_DEFAULTCOMPONENT1</td><td>CUSTOM~1.HTM|customhtml.html</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Bill\customhtml.html</td><td>1</td><td/></row>
-		<row><td>favicon.ico</td><td>ISX_DEFAULTCOMPONENT</td><td>favicon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\favicon.ico</td><td>1</td><td/></row>
-		<row><td>logo.png</td><td>ISX_DEFAULTCOMPONENT2</td><td>logo.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Bill\img\logo.png</td><td>1</td><td/></row>
-		<row><td>mahapps.metro.dll</td><td>MahApps.Metro.dll</td><td>MAHAPP~1.DLL|MahApps.Metro.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MahApps.Metro.dll</td><td>1</td><td/></row>
-		<row><td>mahapps.metro.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MAHAPP~1.PDB|MahApps.Metro.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MahApps.Metro.pdb</td><td>1</td><td/></row>
-		<row><td>mahapps.metro.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>MAHAPP~1.XML|MahApps.Metro.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MahApps.Metro.xml</td><td>1</td><td/></row>
-		<row><td>mrpclasses.dll</td><td>MRPClasses.dll</td><td>MRPCLA~1.DLL|MRPClasses.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPClasses.dll</td><td>1</td><td/></row>
-		<row><td>mrpclasses.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPCLA~1.PDB|MRPClasses.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPClasses.pdb</td><td>1</td><td/></row>
-		<row><td>mrptool.exe</td><td>MRPTool.exe</td><td>MRPTool.exe</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.exe</td><td>1</td><td/></row>
-		<row><td>mrptool.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.CON|MRPTool.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.exe.config</td><td>1</td><td/></row>
-		<row><td>mrptool.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTool.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.pdb</td><td>1</td><td/></row>
-		<row><td>mrptool.vshost.exe</td><td>MRPTool.vshost.exe</td><td>MRPTOO~1.EXE|MRPTool.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.vshost.exe</td><td>1</td><td/></row>
-		<row><td>mrptool.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.CON|MRPTool.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>mrptool.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.MAN|MRPTool.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\MRPTool.vshost.exe.manifest</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>NEWTON~1.XML|Newtonsoft.Json.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Newtonsoft.Json.xml</td><td>1</td><td/></row>
-		<row><td>page.html</td><td>ISX_DEFAULTCOMPONENT1</td><td>PAGE~1.HTM|page.html</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Bill\page.html</td><td>1</td><td/></row>
-		<row><td>processing.gif</td><td>ISX_DEFAULTCOMPONENT</td><td>PROCES~1.GIF|processing.gif</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\processing.gif</td><td>1</td><td/></row>
-		<row><td>select.html.dep</td><td>ISX_DEFAULTCOMPONENT</td><td>SELECT~1.DEP|Select.Html.dep</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Select.Html.dep</td><td>1</td><td/></row>
-		<row><td>select.htmltopdf.dll</td><td>Select.HtmlToPdf.dll</td><td>SELECT~1.DLL|Select.HtmlToPdf.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Select.HtmlToPdf.dll</td><td>1</td><td/></row>
-		<row><td>select.htmltopdf.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>SELECT~1.XML|Select.HtmlToPdf.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\Select.HtmlToPdf.xml</td><td>1</td><td/></row>
-		<row><td>system.windows.interactivity</td><td>System.Windows.Interactivity.dll</td><td>SYSTEM~1.DLL|System.Windows.Interactivity.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\System.Windows.Interactivity.dll</td><td>1</td><td/></row>
-		<row><td>xmlfile1.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>XMLFile1.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\AmitSamanta\Projects\MRPTool\MRPTool\MRPTool\bin\Release\XMLFile1.xml</td><td>1</td><td/></row>
+		<row><td>customhtml.html</td><td>ISX_DEFAULTCOMPONENT1</td><td>CUSTOM~1.HTM|customhtml.html</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\Bill\customhtml.html</td><td>1</td><td/></row>
+		<row><td>favicon.ico</td><td>ISX_DEFAULTCOMPONENT</td><td>favicon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\favicon.ico</td><td>1</td><td/></row>
+		<row><td>logo.png</td><td>ISX_DEFAULTCOMPONENT2</td><td>logo.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\Bill\img\logo.png</td><td>1</td><td/></row>
+		<row><td>mahapps.metro.dll</td><td>MahApps.Metro.dll</td><td>MAHAPP~1.DLL|MahApps.Metro.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MahApps.Metro.dll</td><td>1</td><td/></row>
+		<row><td>mahapps.metro.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MAHAPP~1.PDB|MahApps.Metro.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MahApps.Metro.pdb</td><td>1</td><td/></row>
+		<row><td>mahapps.metro.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>MAHAPP~1.XML|MahApps.Metro.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MahApps.Metro.xml</td><td>1</td><td/></row>
+		<row><td>mrpclasses.dll</td><td>MRPClasses.dll</td><td>MRPCLA~1.DLL|MRPClasses.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPClasses.dll</td><td>1</td><td/></row>
+		<row><td>mrpclasses.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPCLA~1.PDB|MRPClasses.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPClasses.pdb</td><td>1</td><td/></row>
+		<row><td>mrpoutput.csv</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPOUT~1.CSV|MRPOutPut.csv</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPOutPut.csv</td><td>1</td><td/></row>
+		<row><td>mrptool.exe</td><td>MRPTool.exe</td><td>MRPTool.exe</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.exe</td><td>1</td><td/></row>
+		<row><td>mrptool.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.CON|MRPTool.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.exe.config</td><td>1</td><td/></row>
+		<row><td>mrptool.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTool.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.pdb</td><td>1</td><td/></row>
+		<row><td>mrptool.vshost.exe</td><td>MRPTool.vshost.exe</td><td>MRPTOO~1.EXE|MRPTool.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.vshost.exe</td><td>1</td><td/></row>
+		<row><td>mrptool.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.CON|MRPTool.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.vshost.exe.config</td><td>1</td><td/></row>
+		<row><td>mrptool.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT</td><td>MRPTOO~1.MAN|MRPTool.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\MRPTool.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>NEWTON~1.XML|Newtonsoft.Json.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\Newtonsoft.Json.xml</td><td>1</td><td/></row>
+		<row><td>page.html</td><td>ISX_DEFAULTCOMPONENT1</td><td>PAGE~1.HTM|page.html</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\Bill\page.html</td><td>1</td><td/></row>
+		<row><td>select.html.dep</td><td>ISX_DEFAULTCOMPONENT</td><td>SELECT~1.DEP|Select.Html.dep</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\Select.Html.dep</td><td>1</td><td/></row>
+		<row><td>select.htmltopdf.dll</td><td>Select.HtmlToPdf.dll</td><td>SELECT~1.DLL|Select.HtmlToPdf.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\Select.HtmlToPdf.dll</td><td>1</td><td/></row>
+		<row><td>select.htmltopdf.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>SELECT~1.XML|Select.HtmlToPdf.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\Select.HtmlToPdf.xml</td><td>1</td><td/></row>
+		<row><td>system.windows.interactivity</td><td>System.Windows.Interactivity.dll</td><td>SYSTEM~1.DLL|System.Windows.Interactivity.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\System.Windows.Interactivity.dll</td><td>1</td><td/></row>
+		<row><td>xmlfile1.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>XMLFile1.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\MRPTool\MRPTool\MRPTool\bin\Debug\XMLFile1.xml</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2090,13 +2090,13 @@
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_87D1E533_50E7_416D_A516_B45D073AA46F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_6FB53E0E_73D9_437A_9E15_7E4B7AD92D3F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_0C13B71D_73C6_4DBD_8ADD_3C2F81ABD1A4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MRPClasses.dll</td><td/><td/><td>_21F20D88_E9DE_4B0B_A778_1C5265683684_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MRPTool.exe</td><td/><td/><td>_813A532D_AC8F_429F_8501_1F0D5443D6DE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MRPTool.vshost.exe</td><td/><td/><td>_0DF8B13D_C42C_4388_9C96_29212243F22C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MahApps.Metro.dll</td><td/><td/><td>_F90AA7EA_9515_4812_9247_80DA63797741_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_7AEBC483_FB5D_47C5_8027_9FD3E710625A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Select.HtmlToPdf.dll</td><td/><td/><td>_31669137_8DD8_4135_97F8_FCBB71A6D691_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Windows.Interactivity.dll</td><td/><td/><td>_DEC1D841_AC2F_41FA_BFD4_879C4162485B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>MRPClasses.dll</td><td/><td/><td>_ED74D906_FBF5_43B6_B607_34C8F24F8614_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>MRPTool.exe</td><td/><td/><td>_6E95D14B_B8E0_4299_A9FE_725FE1E36431_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>MRPTool.vshost.exe</td><td/><td/><td>_C240C79E_D769_47DE_A3DD_E3DA74199FFF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>MahApps.Metro.dll</td><td/><td/><td>_945C9824_05EF_4424_A49A_584B03389C68_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_FCDBE41F_E07B_4BC0_85D4_CF86FB04A1A0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Select.HtmlToPdf.dll</td><td/><td/><td>_E7416599_EC8D_42FE_BB39_B8CA895C3513_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Windows.Interactivity.dll</td><td/><td/><td>_8D6CA3B0_DC90_4D64_A800_0A8450CFEF3B_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2684,7 +2684,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Aquamonix Sydney</td><td>0</td><td/><td>-375031095</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Aquamonix Sydney</td><td>0</td><td/><td>1403417744</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>1109683849</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>1109683849</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>1109683849</td></row>
@@ -3505,6 +3505,8 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME15</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>161819532</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME16</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>-509243021</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME17</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.vshost.exe</td><td>0</td><td/><td>-509247181</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME18</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>1403423888</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME19</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.vshost.exe</td><td>0</td><td/><td>1403406640</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.vshost.exe</td><td>0</td><td/><td>1109706537</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>MRPTool.exe</td><td>0</td><td/><td>1109705522</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.vshost.exe</td><td>0</td><td/><td>1109705362</td></row>
@@ -3801,13 +3803,14 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1109683849</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1109683849</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1109683849</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.AquamonixSydney.com</td><td>0</td><td/><td>-375031095</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.AquamonixSydney.com</td><td>0</td><td/><td>1403417744</td></row>
 		<row><td>ID_STRING10</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>1176804688</td></row>
 		<row><td>ID_STRING11</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>1092983051</td></row>
 		<row><td>ID_STRING12</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.exe</td><td>0</td><td/><td>-2128240880</td></row>
 		<row><td>ID_STRING13</td><td>1033</td><td>LAUNCH~1.EXE|Launch MRPTool.vshost.exe</td><td>0</td><td/><td>-2128220400</td></row>
 		<row><td>ID_STRING14</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>-375024951</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Aquamonix Sydney</td><td>0</td><td/><td>-375031095</td></row>
+		<row><td>ID_STRING15</td><td>1033</td><td>MRPTool</td><td>0</td><td/><td>1403427984</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Aquamonix Sydney</td><td>0</td><td/><td>1403417744</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>MRPTool.exe</td><td>0</td><td/><td>1109663561</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>MRPTool.exe</td><td>0</td><td/><td>1109713714</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>Aquamonix Sydney</td><td>0</td><td/><td>-366725713</td></row>
@@ -3935,6 +3938,7 @@
 		<row><td>MRPTool.exe1_37ED71341A88407C865C554B8441F5F1.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe1_46516445DD3A41F080569656B72E0188.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe1_4F66E350DE644132B571E75248534D85.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Debug\favicon.ico</td><td>2</td></row>
+		<row><td>MRPTool.exe1_66D7DB48C3B24D17927D6159106D0D72.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe1_68A02E5D4FD44EC392D7177D36414EF4.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Debug\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe1_7B1A60B457F44FC8A54AF7E1F36880F4.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe1_8F1E1931570D49D4946EAD72AC8C0576.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
@@ -3943,6 +3947,7 @@
 		<row><td>MRPTool.exe_118DC3614D2242DCB7F15875D910176F.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe_21A379ABD7024689BA575615A112AFAF.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe_2EF2012F83B040F3AB6A004DB271415D.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
+		<row><td>MRPTool.exe_824661F8876F4DAA82E2160CB55141FD.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe_8917ACE125924096B97AD84F8A85FDD0.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe_9B06C5B0CAF8492BAE7827F03D3E68A6.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.exe_B1917B4918B54194849E2378BB4C52BB.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Debug\favicon.ico</td><td>0</td></row>
@@ -3954,6 +3959,7 @@
 		<row><td>MRPTool.vshost.exe_5E728DBFA33F4AE28EA89506846BA261.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>MRPTool.vshost.exe_7C444B2A05A74F77BF078ED50DAE309D.exe</td><td/><td>&lt;VSSolutionFolder&gt;\MRPTool\bin\Release\favicon.ico</td><td>0</td></row>
 		<row><td>MRPTool.vshost.exe_BC7BAF87B99745D2B10A6ED4B226A59C.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>MRPTool.vshost.exe_C0423A50FB8F42ED87E29C4C12C393A4.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>MRPTool.vshost.exe_E1F5C732F19E43C3A891758C1D86BE34.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>MRPTool.vshost.exe_FAAD670E2C1F4DEA967517874A1C3DC8.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
@@ -4542,6 +4548,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>MRPTool.exe</td><td>MRPTool.exe</td><td/><td>mrpsetup</td><td>2</td></row>
+		<row><td>MRPTool.vshost.exe</td><td>MRPTool.vshost.exe</td><td/><td>mrpsetup</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4627,8 +4634,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>MRPTool.exe</td><td>mrpsetup</td><td>##IDS_SHORTCUT_DISPLAY_NAME16##</td><td>MRPTool.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>MRPTool.exe_21A379ABD7024689BA575615A112AFAF.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>MRPTool.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME16##</td><td>MRPTool.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>MRPTool.exe1_35029A77CB1E420F8E10032740596739.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>MRPTool.exe</td><td>mrpsetup</td><td>##IDS_SHORTCUT_DISPLAY_NAME18##</td><td>MRPTool.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>MRPTool.exe_824661F8876F4DAA82E2160CB55141FD.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>MRPTool.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME18##</td><td>MRPTool.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>MRPTool.exe1_66D7DB48C3B24D17927D6159106D0D72.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>MRPTool.vshost.exe</td><td>mrpsetup</td><td>##IDS_SHORTCUT_DISPLAY_NAME19##</td><td>MRPTool.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>MRPTool.vshost.exe_C0423A50FB8F42ED87E29C4C12C393A4.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

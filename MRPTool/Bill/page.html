@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Purchase Order</title>
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif;">
+
+    <div class="page" style="width:100%; float:left;">
+        <div class="container" style="margin: 0 0 0 5%;  width: 90%;">
+            <div class="content-box">
+                <h1 style="width:100%; float:left;">PURCHASE ORDER</h1>
+                <div style="width:500px; height:260px; float:left; background:#ededed; padding: 24px;">
+                    <div style="width:40%; float:left">
+                        <h4 style="margin:0 0 0 0"><b>##Instruments##</b></h4>
+                        <p>##SupCode##</p>
+                        <!--<p style="float:right; padding: 0 0 0 20px;">3179</p>
+                        <p style="float:right">VIC</p>-->
+                    </div>
+
+                    <div style="width:48%; float:left; padding: 0 0 0 50px;">
+                        <h4 style="margin:0 0 0 0"><b>Deliver To:</b></h4>
+                        <p>##DeliveryName##</p>
+                        <p>##StreetAddress##</p>
+                        <ul style="list-style:none; padding:0; margin:0;">
+                            <li style="float:left; padding: 0 35px 0 0;">##Suburb##</li>
+                            <li style="float:left; padding: 0 35px 0 0;">##State##</li>
+                            <li style="float:left; padding: 0 35px 0 0;">##PostalCode##</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="width:300px; height:260px; float:left;">
+                    <div style="width:100%; float:left; padding:24px;">
+                        <div style="width:100%; float:left"><img src="img/logo.png" alt="logo" style="width:100%; padding: 0 0 20px;"></div>
+                        <p style="float:left; padding: 0 10px 0 0;">TAX NUMBER (ABN): </p>
+			            <p style="float:left;">26 609 047 878</p>
+                        <p style="float:left;">##StreetAddress##</p>
+                        <ul style="list-style:none; padding:0; margin:0; width:100%; float:left;">
+                            <li style="float:left; padding: 0 35px 0 0;">##Suburb##</li>
+                            <li style="float:left; padding: 0 35px 0 0;">##State##</li>
+                            <li style="float:left; padding: 0 35px 0 0;">##PostalCode##</li>
+                        </ul>
+                        <p style="width:100%; float:left; padding:0 0;">##PhoneNumber##</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="width:100%; float:left; padding: 70px 0 0;">
+                <div style="width:100%; float:left; background:#f5f5f5; ">
+                    <table border=0 cellspacing="0" style="width:100%; float:left; text-align:left; padding: 20px;">
+                        <thead>
+                            <tr style="background:#f5f5f5;">
+                                <th><b>Required Date</b></th>
+                                <th><b>Order Date</b></th>
+                                <th><b>Order #</b></th>
+                                <th><b>Supplier Code</b></th>
+                                <th><b>Reference #</b></th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr style="background:#f5f5f5;">
+                                <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">##RequiredDate##</p></th>
+                                <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">##OrderDate##</p></th>
+                                <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">##OrderNumber##</p></th>
+                                <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">##SupplierCode##</p></th>
+                                <!--<th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">##ReferenceNumber##</p></th>-->
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+                <table border=0 cellspacing="0" style="width:100%; float:left; text-align:left; padding: 20px;">
+                    <tbody>
+                        <tr style="border-bottom:2px solid #f5f5f5;">
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Ln</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Supplier Code</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Product Code</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Product Description</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Qty</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Unit</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Price</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Amount</p></th>
+                            <th style="padding: 5px 0;"><p style="margin:0; border-bottom:1px solid #ddd; font-weight:normal; font-size: 13px;">Tax</p></th>
+                        </tr>
+                        ##ReplaceBodyContent##
+                        <!--<tr style="border-bottom:2px solid #f5f5f5;">
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">1</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;"></p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">Engineering Non-Stock item</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">Generic product code for non-stock engineering equipment.</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">6.00</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">EA</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">200.00</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">1,200.0</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">120.00</p></th>
+                        </tr>
+                        <tr style="border-bottom:2px solid #f5f5f5;">
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">2</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;"></p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">Service Non-Stock Item</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">Generic product code representing non-stock item cost to service.</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">5.00</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">EA</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">200.00</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">1,000.0</p></th>
+                        <th style="padding: 5px 0;"><p style="margin:0; font-weight:normal; font-size: 13px;">100.00</p></th>
+                        </tr>-->
+                    </tbody>
+                </table>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div style="width:100%; float:left;">
+                <div style="width:22.3%; float:right;">
+                    <ul style="list-style:none; padding:0; margin:0;">
+                        <li style="float:left; width:100%; text-align: left; padding:5px 0; font-weight:bold;">Sub Total<span style="margin-right:38px; float:right;">##SubTotal##</span></li>
+                        <li style="float:left; width:100%; text-align: left; padding:5px 0; font-weight:bold;">Tax Total<span style="margin-right:38px; float:right;">##TaxTotal##</span></li>
+                        <li style="float:left; width:100%; text-align: left; padding:5px 0; font-weight:bold;">Total<span style="margin-right:38px; float:right;">##CompleteTotal##</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="width:50%; float:left; padding: 60px 0 0;">
+                <p style="margin:0px; float:left; width:20%;"><b>Comments</b></p>
+                <p style="margin:0px; float:left; width:80%; "><span style="float: left; padding: 0 0 0 35px;"><i>##Comments##</i></span></p>
+                <p style="width:100%; float:left; margin:100px 0 20px 0;">Please email confirmation to:</p>
+                <p style="width:100%; float:left; margin:0 0 0 0;">admin@aquamonix.com.au</p>
+            </div>
+            <div style="width:50%; float:left; padding: 60px 0;">
+                <p style="margin:0px; float:left; width:25%;">Payment Details:</p>
+                <p style="margin:0px; float:left; width:75%;">
+                    <ul style="list-style:none; padding:0; margin:0; width: 71%; float: right;">
+                        <li style="margin:0 0 15px 0;">
+                            Please ensure you check all details contained in
+                            this document and notify Aquamonix of any
+                            changes within one business day.
+                        </li>
+                        <li style="margin:0 0 15px 0;">
+                            Delivery of goods &/or services pursuant to this
+                            Purchase Order constitutes acceptance of the
+                            details contained within and are bound by
+                            Aquamonix Terms & Conditions of Purchase.
+                            Claims for variances at or after delivery will not
+                            be accepted.
+                        </li>
+                        <li style="margin:0 0 15px 0;">
+                            Refer to the attached Terms and Conditions of
+                            Purchase. If they are not attached, please
+                            contact Aquamonix.
+                        </li>
+                    </ul>
+                </p>
+                <div style="width:100%; float:left; padding: 20px 0 0;">
+                    <p style="margin:0px; float:left; width:29%;">Payment Terms:</p>
+                    <p style="margin:0px; float:left; width:71%; "><span style="float: left;">30 days</span></p>
+                    <p style="margin:15px 0 0 0; float:left; width:29%;">Currency</p>
+                    <p style="margin:15px 0 0 0; float:left; width:71%; "><span style="float: left;">AUD</span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
