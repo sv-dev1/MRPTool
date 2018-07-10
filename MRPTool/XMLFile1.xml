@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?> 
+<PurchaseOrder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.unleashedsoftware.com/version/1"> 
+  <Guid>1e17d977-a022-4a73-8ce0-d1fe8c1708c7</Guid> 
+  <OrderNumber>PO-00000075</OrderNumber> 
+  <OrderDate>2016-02-29T01:03:26.5974635</OrderDate> 
+  <RequiredDate>2016-02-29T01:03:26.5974635</RequiredDate> 
+  <CompletedDate xsi:nil="true" /> 
+  <Supplier> 
+    <Guid>3f13c654-3f64-4005-b502-17f966651904</Guid> 
+    <SupplierCode>BAS001</SupplierCode> 
+    <SupplierName>Bastion Incorporated</SupplierName> 
+  </Supplier> 
+  <Printed xsi:nil="true" /> 
+  <OrderStatus>Parked</OrderStatus> 
+  <ReceivedDate xsi:nil="true" /> 
+  <Currency> 
+    <Guid>405aa117-a487-4c0c-9431-cdaf21273f04</Guid> 
+    <LastModifiedOn>2014-12-16T20:28:06.163</LastModifiedOn> 
+    <CurrencyCode>NZD</CurrencyCode> 
+    <Description>New Zealand, Dollars</Description> 
+  </Currency> 
+  <ExchangeRate>1.000000</ExchangeRate> 
+  <Tax> 
+    <Guid>00000000-0000-0000-0000-000000000000</Guid> 
+    <LastModifiedOn xsi:nil="true" /> 
+    <TaxCode>INPUT2</TaxCode> 
+    <TaxRate>0.150000</TaxRate> 
+    <CanApplyToExpenses>false</CanApplyToExpenses> 
+    <CanApplyToRevenue>false</CanApplyToRevenue> 
+    <Obsolete>false</Obsolete> 
+  </Tax> 
+  <TaxRate>0.150000</TaxRate> 
+  <XeroTaxCode>INPUT2</XeroTaxCode> 
+  <SubTotal>12.000</SubTotal> 
+  <TaxTotal>1.800</TaxTotal> 
+  <Total>13.800</Total> 
+  <TotalVolume>0.000</TotalVolume> 
+  <TotalWeight>0.000</TotalWeight> 
+  <SupplierInvoiceDate xsi:nil="true" /> 
+  <BCSubTotal>12.000</BCSubTotal> 
+  <BCTaxTotal>1.800</BCTaxTotal> 
+  <BCTotal>13.800</BCTotal> 
+  <PurchaseOrderLines> 
+    <PurchaseOrderLine> 
+      <Guid>174e5e8c-c0b0-4670-96d5-baf741cf8233</Guid> 
+      <LineNumber>1</LineNumber> 
+      <Product> 
+        <Guid>e5a349d9-55d0-401b-925d-87f668c72ed1</Guid> 
+        <LastModifiedOn>2016-02-28T21:14:26.0751169</LastModifiedOn> 
+        <ProductCode>RTL</ProductCode> 
+        <ProductDescription>Red T-shirt Large</ProductDescription> 
+        <Barcode>SRIAHC</Barcode> 
+        <PackSize xsi:nil="true" /> 
+        <Width xsi:nil="true" /> 
+        <Height xsi:nil="true" /> 
+        <Depth xsi:nil="true" /> 
+        <Weight xsi:nil="true" /> 
+        <MinStockAlertLevel xsi:nil="true" /> 
+        <MaxStockAlertLevel xsi:nil="true" /> 
+        <ReOrderPoint xsi:nil="true" /> 
+        <NeverDiminishing>false</NeverDiminishing> 
+        <LastCost xsi:nil="true" /> 
+        <DefaultPurchasePrice>0.0000</DefaultPurchasePrice> 
+        <DefaultSellPrice>0.0000</DefaultSellPrice> 
+        <AverageLandPrice xsi:nil="true" /> 
+        <Obsolete>false</Obsolete> 
+        <XeroTaxRate xsi:nil="true" /> 
+        <TaxablePurchase>true</TaxablePurchase> 
+        <TaxableSales>true</TaxableSales> 
+        <XeroSalesTaxRate xsi:nil="true" /> 
+        <IsComponent>false</IsComponent> 
+        <IsAssembledProduct>false</IsAssembledProduct> 
+        <CanAutoAssemble>false</CanAutoAssemble> 
+        <CreatedBy>sandbox@unleashedsoftware.com</CreatedBy> 
+      </Product> 
+      <DueDate>2016-02-29T01:03:26.597</DueDate> 
+      <OrderQuantity>12.0000</OrderQuantity> 
+      <UnitPrice>1.0000</UnitPrice> 
+      <LineTotal>12.000</LineTotal> 
+      <Volume xsi:nil="true" /> 
+      <Weight xsi:nil="true" /> 
+      <ReceiptQuantity xsi:nil="true" /> 
+      <BCUnitPrice>1.0000</BCUnitPrice> 
+      <BCSubTotal>12.000</BCSubTotal> 
+      <LineTax>1.80</LineTax> 
+      <LastModifiedOn>2016-03-15T21:29:41.9984179</LastModifiedOn> 
+      <DiscountedUnitPrice>1.0000</DiscountedUnitPrice> 
+      <DiscountRate>0.0000</DiscountRate> 
+    </PurchaseOrderLine> 
+  </PurchaseOrderLines> 
+  <Warehouse> 
+    <Guid>79fc2520-2105-4c1f-8765-3fd8ed577130</Guid> 
+    <LastModifiedOn>2014-12-16T20:28:24.657</LastModifiedOn> 
+    <WarehouseCode>MAIN</WarehouseCode> 
+    <WarehouseName>Main Warehouse</WarehouseName> 
+    <IsDefault>true</IsDefault> 
+    <ContactName /> 
+    <Obsolete>false</Obsolete> 
+  </Warehouse> 
+  <LastModifiedOn>2016-02-29T01:03:26.7537145</LastModifiedOn> 
+  <DiscountRate>0.0000</DiscountRate> 
+</PurchaseOrder>

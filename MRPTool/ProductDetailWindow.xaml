@@ -1,0 +1,172 @@
+﻿<Controls:MetroWindow x:Class="MRPTool.ProductDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:MRPTool"
+        mc:Ignorable="d" WindowState="Maximized"
+        Title="Product Detail" Height="700" Width="700">
+    <Grid>
+
+
+        <!--<TabControl>
+            <TabItem Header="General">
+                <Label Content="Content goes here..." />
+            </TabItem>
+            <TabItem Header="Security" />
+            <TabItem Header="Details" />
+        </TabControl>-->
+
+        <TabControl Grid.IsSharedSizeScope="True" Grid.Row="1" Style="{StaticResource TabControlStyle}">
+            <TabItem Header="Product Detail" Style="{StaticResource TabItemStyle}">
+                <Grid x:Name="ProductDetail">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>                                              
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="17*"></ColumnDefinition>
+                        <ColumnDefinition Width="170*"></ColumnDefinition>
+                        <ColumnDefinition Width="251*"></ColumnDefinition>
+                        <ColumnDefinition Width="248*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="1" Grid.Column="1">Product Code</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="2" Name="txtblockProductCode" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,0,0,6">Product Description</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="2" Name="txtblockProductName" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="3" Grid.Column="1">Barcode</TextBlock>
+                    <TextBox Grid.Row="3" Grid.Column="2" Name="txtblockBarCode" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="4" Grid.Column="1">Unit Of Measure</TextBlock>
+                    <TextBox Grid.Row="4" Grid.Column="2" Name="txtblockUnitOfMeasure" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="5" Grid.Column="1">Product Group</TextBlock>
+                    <TextBox Grid.Row="5" Grid.Column="2" Name="txtblockProductGroup" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="6" Grid.Column="1">Sales Account</TextBlock>
+                    <TextBox Grid.Row="6" Grid.Column="2" Name="txtblockSalesAccount" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="7" Grid.Column="1">Cost Of Goods Sold Account</TextBlock>
+                    <TextBox Grid.Row="7" Grid.Column="2" Name="txtblockCostOfGoodsSoldAccount" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="8" Grid.Column="1">Pack Size</TextBlock>
+                    <TextBox Grid.Row="8" Grid.Column="2" Name="txtpackSize" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="9" Grid.Column="1">Min Inventory Level</TextBlock>
+                    <TextBox Grid.Row="9" Grid.Column="2" Name="txtMinSlot" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="10" Grid.Column="1">Max Inventory Level</TextBlock>
+                    <TextBox Grid.Row="10" Grid.Column="2" Name="txtMaxSlot" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+                    <TextBlock Grid.Row="11" Grid.Column="1">Average Landed Cost</TextBlock>
+                    <TextBox Grid.Row="11" Grid.Column="2" Name="txtAverageLanded" Margin="0,0,0,6" IsReadOnly="true"></TextBox>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Purchase" Style="{StaticResource TabItemStyle}">
+                <Grid x:Name="Purchase">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"></ColumnDefinition>
+                        <ColumnDefinition Width="41*"></ColumnDefinition>
+                        <ColumnDefinition Width="50*"></ColumnDefinition>
+                        <ColumnDefinition Width="126*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,0,0,6">Purchase Price</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="2" Name="txtblockPurchasePrice" Margin="0,0,0,6"  IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="2" Grid.Column="1">Supplier Code</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="2" Name="txtblockSupplierCode" Margin="0,0,0,6"  IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="3" Grid.Column="1">Supplier Name</TextBlock>
+                    <TextBox Grid.Row="3" Grid.Column="2" Name="txtblockSupplierName" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="4" Grid.Column="1">Currency</TextBlock>
+                    <TextBox Grid.Row="4" Grid.Column="2" Name="txtCurrency" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Sale" Style="{StaticResource TabItemStyle}">
+                <Grid x:Name="Sale">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"></ColumnDefinition>
+                        <ColumnDefinition Width="41*"></ColumnDefinition>
+                        <ColumnDefinition Width="50*"></ColumnDefinition>
+                        <ColumnDefinition Width="126*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,0,0,6">Sell Price Tier 1</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="2" Name="SellPriceTier1" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="2" Grid.Column="1">Sell Price Tier 2</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="2" Name="SellPriceTier2" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="3" Grid.Column="1">Sell Price Tier 3</TextBlock>
+                    <TextBox Grid.Row="3" Grid.Column="2" Name="SellPriceTier3" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="4" Grid.Column="1">Sell Price Tier 4</TextBlock>
+                    <TextBox Grid.Row="4" Grid.Column="2" Name="SellPriceTier4"  Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="5" Grid.Column="1">Sell Price Tier 5</TextBlock>
+                    <TextBox Grid.Row="5" Grid.Column="2" Name="SellPriceTier5" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="6" Grid.Column="1">Sell Price Tier 6</TextBlock>
+                    <TextBox Grid.Row="6" Grid.Column="2" Name="SellPriceTier6" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="7" Grid.Column="1">Sell Price Tier 7</TextBlock>
+                    <TextBox Grid.Row="7" Grid.Column="2" Name="SellPriceTier7" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="8" Grid.Column="1">Sell Price Tier 8</TextBlock>
+                    <TextBox Grid.Row="8" Grid.Column="2" Name="SellPriceTier8" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="9" Grid.Column="1">Sell Price Tier 9</TextBlock>
+                    <TextBox Grid.Row="9" Grid.Column="2" Name="SellPriceTier9" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+
+                    <TextBlock Grid.Row="10" Grid.Column="1">Sell Price Tier 10</TextBlock>
+                    <TextBox Grid.Row="10" Grid.Column="2" Name="SellPriceTier10" Margin="0,0,0,6" IsReadOnly="True"></TextBox>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+
+</Controls:MetroWindow>
